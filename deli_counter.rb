@@ -21,3 +21,4 @@ def take_a_number(x, name)
 end
 puts "Welcome, #{name}. You are #{x.length} in line."
 end
+end
