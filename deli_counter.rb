@@ -12,10 +12,10 @@ puts "The line is currently: #{deli.join(" ")}"
 end
 end
 
-def take_a_number(deli, name)
-  if deli.length == 0
-    puts "Welcome, #{name}. You are number 1 in line."
+def take_a_number(x, name)
+  if x.length == 0
+    puts "Welcome, #{name}. You are number #{x.length} in line."
   else
-    puts "Welcome, #{name}. You are #{deli.length} in line."
+    puts "Welcome, #{name}. You are #{x.length} in line."
 end
 end
