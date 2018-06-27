@@ -4,9 +4,10 @@ deli = []
 if x.length == 0
 puts "The line is currently empty."
 else
-
+message = "The line is currently:"
   x.each.with_index(1) do |name, index|
-    puts "The line is currently: #{index}. #{name}"
+    puts "#{message} #{index}. #{name}"
 end
+
 end
 end
