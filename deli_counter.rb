@@ -8,6 +8,5 @@ message = "The line is currently:"
   x.each.with_index(1) do |name, index|
     puts "#{message} #{index}. #{name}"
 end
-
 end
 end
