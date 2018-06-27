@@ -5,7 +5,7 @@ if x.length == 0
 puts "The line is currently empty."
 else
 
-  x.each_with_index(1) do |name, index|
+  x.each_with_index do |name, index|
     puts "The line is currently: #{index} #{name}."
 end
 end
