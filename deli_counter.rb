@@ -16,6 +16,8 @@ def take_a_number(x, name)
   if x.length == 0
     puts "Welcome, #{name}. You are number 1 in line."
   else
-    puts "Welcome, #{name}. You are #{x.length} in line."
+    x.each.with_index(1) do |name, index|
+    deli.push("#{index}. #{name}")
 end
+puts "Welcome, #{name}. You are #{x.length} in line."
 end
