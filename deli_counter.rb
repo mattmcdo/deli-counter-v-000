@@ -17,5 +17,5 @@ x.push("#{name}")
 puts "Welcome, #{name}. You are number #{x.length} in line."
 end
 
-def now_serving
+def now_serving(x)
 end
