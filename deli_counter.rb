@@ -17,7 +17,9 @@ x.push("#{name}")
 puts "Welcome, #{name}. You are number #{x.length} in line."
 end
 
-def now_serving(x)
+def now_serving(x, name)
   if x.length == 0
   puts "There is nobody waiting to be served!"
+else
+  x.push
 end
