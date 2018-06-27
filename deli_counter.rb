@@ -18,3 +18,4 @@ def take_a_number(deli, name)
   else
     "Welcome, #{name}. You are #{deli.length} in line."
 end
+end
