@@ -1,7 +1,9 @@
 # Write your code here.
-def line(katz_deli)
-if katz_deli = []
-  puts "The line is currently empty."
+def line(x)
+deli = []
+if x.length == 0
+puts "The line is currently empty."
 else
-  katz_deli
+  
+
 end
