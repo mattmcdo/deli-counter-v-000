@@ -18,4 +18,6 @@ puts "Welcome, #{name}. You are number #{x.length} in line."
 end
 
 def now_serving(x)
+
+  puts "There is nobody waiting to be served!"
 end
