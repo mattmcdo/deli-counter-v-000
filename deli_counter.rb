@@ -7,3 +7,4 @@ else
   x.each_with_index do |name, spot|
 end
 end
+end
