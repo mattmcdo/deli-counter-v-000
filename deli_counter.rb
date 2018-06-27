@@ -6,7 +6,7 @@ puts "The line is currently empty."
 else
 message = "The line is currently:"
   x.each.with_index(1) do |name, index|
-    puts "#{message} #{index}. #{name}"
+    puts "#{message} #{index}. #{name}" << deli
 end
 deli.join(" ")
 end
