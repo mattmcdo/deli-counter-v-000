@@ -21,6 +21,7 @@ def now_serving(x, name)
   if x.length == 0
   puts "There is nobody waiting to be served!"
 else
-  x.push
+  x.push("#{name}")
+  puts "Currently serving #{name}."
 end
 end
