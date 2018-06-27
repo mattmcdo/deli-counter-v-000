@@ -13,6 +13,7 @@ end
 end
 
 def take_a_number(deli, name)
+  deli = []
   if deli.length == 0
     puts "Welcome, #{name}. You are number 1 in line."
   else deli.length > 0
